@@ -1,0 +1,49 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    text-decoration: none;
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 24px 20px;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+
+.navigation a li:hover{
+    background-color: green;
+    color: #101010;
+}
+
+.header{
+    background-color: #101010;
+    color: white;
+    padding: 10px 20px;
+}
+
+.content img{
+    width:400px
+    clear: left;
+    float: left;
+    position: relative;
+    border: 1px solid gray;
+    margin-right: 20px; /*внешний отступ*/
+    margin-top: 20px; /*внешний отступ*/
+    margin-bottom: 20px; /*внешний отступ*/
+    padding: 10px; /*внутренний отступ*/
+    font-weight: bold;
+}
+
+.content p{
+    padding: 20px 20px;
+    font-size: 20px;
+}
